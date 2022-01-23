@@ -239,6 +239,14 @@
     margin-bottom: 10px;
 }
 
+.reviews .ok {
+    height: 400px;
+    padding-top: 1.25rem;
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
 
 /* .reviews .first {
     height: 80vh;
@@ -680,6 +688,11 @@ form .submit {
     }
     .rwd-hide {
         display: none;
+    }
+    .reviews .ok {
+        display: block;
+        margin-left: 0;
+        width: 100%;
     }
 }
 

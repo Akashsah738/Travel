@@ -211,13 +211,16 @@
 
 .reviews {
     background-color: #F15A23;
+    height: 35rem;
 }
 
 .reviews .review-container {
     width: 360px;
     height: 200px;
     margin: auto 5px;
+    /* margin-top: 5px; */
     padding: 15px;
+    padding-top: 10px;
     font-size: 15px;
 }
 
@@ -236,7 +239,12 @@
     margin-bottom: 10px;
 }
 
-.pro-teams .team-info-flex {
+
+/* .reviews .first {
+    height: 80vh;
+} */
+
+.reviewa .pro-teams .team-info-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -648,6 +656,13 @@ form .submit {
     .footer .follow-us h4 {
         font-size: 18px;
     }
+    .first {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .review {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -674,6 +689,22 @@ form .submit {
         padding-bottom: 1.5rem !important;
     }
 }
+
+
+/* @media(max-width:900px) {}
+
+.first {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+@media(max-width:450px) {
+    .first {
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+    }
+} */
 
 
 /*# sourceMappingURL=style.css.map */

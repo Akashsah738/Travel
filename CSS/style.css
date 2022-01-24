@@ -248,6 +248,79 @@
 }
 
 
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+} */
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 35px;
+    color: #F15A23;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 35px;
+    color: #F15A23;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: transparent;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: transparent;
+    color: white;
+}
+
+.fa-instagram {
+    background: transparent;
+    color: white;
+}
+
+.fa-google {
+    background-color: transparent;
+    color: white;
+}
+
+.fa-linkedin {
+    background-color: transparent;
+    color: white;
+}
+
+
 /* .reviews .first {
     height: 80vh;
 } */
@@ -450,7 +523,8 @@ form .submit {
     align-items: center;
 }
 
-.footer .icons .fb,
+
+/* .footer .icons .fb,
 .footer .icons .insta,
 .footer .icons .tweet,
 .footer .icons .gplus,
@@ -470,7 +544,7 @@ form .submit {
     align-items: center;
     color: white;
     font-size: 25px;
-}
+} */
 
 .navbar-light .navbar-toggler {
     color: white;
